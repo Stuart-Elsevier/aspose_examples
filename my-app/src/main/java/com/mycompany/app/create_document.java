@@ -17,9 +17,15 @@ public class create_document
         Document doc = new Document();
         DocumentBuilder builder = new DocumentBuilder(doc);
         builder.writeln("Enter Text for the new document");
+        
+        // Save document at: aspose_examples/src/main/resources/com/mycompany/app/App
         doc.save(dataDir + "Name the document.docx");
+
+
+
+
         System.out.println("New Word document created successfully.");
    
-        
+
     }
 }
