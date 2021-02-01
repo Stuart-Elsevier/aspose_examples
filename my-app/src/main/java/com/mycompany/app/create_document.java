@@ -13,7 +13,7 @@ public class create_document
         DocumentBuilder builder = new DocumentBuilder(doc);
         builder.writeln("Enter Text for the new document");
         
-        // Save document at: aspose_examples/src/main/resources/com/mycompany/app/App
+        // Save document at: aspose_examples/src/main/resources/com/mycompany/app/manipulate_document/
         doc.save(dataDir + "Name the document.docx");
 
 

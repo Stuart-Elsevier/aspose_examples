@@ -16,9 +16,10 @@ public class convert_to_HTML {
         {
             
             // current class dir
-            String dataDir = Utils.getDataDir(App.class);
+            String dataDir = Utils.getDataDir(manipulate_document.class);
 
             // Load the document from disk.
+            // Reads the document at location: aspose_examples/src/main/resources/com/mycompany/app/manipulate_doc/
             Document doc = new Document(dataDir + "Revised manuscript with no changes marked.docx");
 
             // Save the document into HTML.
