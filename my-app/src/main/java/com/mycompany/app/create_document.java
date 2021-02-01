@@ -1,11 +1,6 @@
 package com.mycompany.app;
 import com.aspose.words.Document;
-import com.aspose.words.Paragraph;
-import com.aspose.words.Section;
 import com.aspose.words.DocumentBuilder;
-//import com.aspose.words.utils.*;
-import java.io.File;
-
 
 public class create_document 
 {
