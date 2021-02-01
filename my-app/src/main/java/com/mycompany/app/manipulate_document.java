@@ -96,7 +96,7 @@ public class manipulate_document {
         license.setLicense("Aspose.Words.Java.lic");
 
         // Reads the document at location: /Users/smiths/development/java_code/Maven_test/src/main/resources/com/mycompany/app/manipulate_doc/
-        String dataDir = Utils.getDataDir(manipulate_doc.class);
+        String dataDir = Utils.getDataDir(manipulate_document.class);
         Document doc = new Document(dataDir + "Revised manuscript with no changes marked.docx");
         //int type = doc.getNodeType();
 
