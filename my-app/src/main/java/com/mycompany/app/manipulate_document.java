@@ -162,6 +162,7 @@ public class manipulate_document {
             child.remove();
         }
     }
+
         //String dataDir2 = Utils.getSharedDataDir(manipulate_doc.class);
         
         //recurseAllNodes(dataDir);
