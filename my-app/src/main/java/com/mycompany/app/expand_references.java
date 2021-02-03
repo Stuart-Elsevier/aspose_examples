@@ -96,11 +96,14 @@ public class expand_references {
 
                 Run run = (Run) childNode;
                 System.out.println(run.getText());
+                
             }
 
             if (childNode.getNodeType() == NodeType.BOOKMARK_START) {
 
             }
+
+            
             // Recurse into the node if it is a composite node.
             if (childNode.isComposite())
                 traverseAllNodes((CompositeNode) childNode);
@@ -122,7 +125,7 @@ public class expand_references {
         // Prints the document structure for falt finding and understanding what types are what
         recurseAllNodes(dataDir);
         BookmarkCollection bookmarks = doc.getRange().getBookmarks();
-        printAllBookmarkInfo(bookmarks);
+        //printAllBookmarkInfo(bookmarks);
 
 
             
