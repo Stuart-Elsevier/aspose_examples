@@ -6,7 +6,8 @@ public class create_document
 {
     public static void main( String[] args) throws Exception
     {
-        
+        com.aspose.words.License license = new com.aspose.words.License();
+        license.setLicense("Aspose.Words.Java.lic");
         String dataDir = Utils.getDataDir(App.class);
         // Open the document.
         Document doc = new Document();
